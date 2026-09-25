@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Riyaz Malik - Computer Science Student, AI/ML Enthusiast and Full Stack Developer">
+
+    <title>Riyaz Malik | AI & Full Stack Developer</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <a href="#home" class="logo">
+            RM<span>.</span>
+        </a>
+
+        <button class="menu-btn" id="menuBtn">
+            ☰
+        </button>
+
+        <nav id="nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+
+
+    <!-- ================= MAIN ================= -->
+
+    <main>
+
+        <!-- HERO SECTION -->
+
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <p class="eyebrow">
+                    AI-BASED PERSONAL PROFILE
+                </p>
+
+                <h1>
+                    Hi, I'm <span>Riyaz Malik</span>
+                </h1>
+
+                <h2>
+                    Computer Science Student & AI/ML Enthusiast
+                </h2>
+
+                <p class="hero-text">
+                    I build practical web applications and AI-powered
+                    solutions while continuously improving my skills in
+                    software development, DSA and machine learning.
+                </p>
+
+                <div class="buttons">
+
+                    <a href="#contact" class="btn primary">
+                        Contact Me
+                    </a>
+
+                    <a href="#projects" class="btn secondary">
+                        View Projects
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-card">
+
+                <div class="orb"></div>
+
+                <div class="code-card">
+
+                    <span>&lt;developer&gt;</span>
+
+                    <p>
+                        AI + Web + DSA
+                    </p>
+
+                    <span>&lt;/developer&gt;</span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section class="section" id="about">
+
+            <p class="eyebrow">
+                ABOUT ME
+            </p>
+
+            <h2>
+                Building skills by building things.
+            </h2>
+
+            <p class="section-text">
+
+                I am a B.Tech Computer Science student at
+                Jamia Millia Islamia, focused on becoming an
+                AI Engineer.
+
+                I enjoy turning ideas into working products
+                and learning through projects, hackathons and
+                problem solving.
+
+            </p>
+
+
+            <div class="stats">
+
+                <div>
+                    <strong>2028</strong>
+                    <span>Graduation</span>
+                </div>
+
+                <div>
+                    <strong>AI/ML</strong>
+                    <span>Career Focus</span>
+                </div>
+
+                <div>
+                    <strong>Full Stack</strong>
+                    <span>Development</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SKILLS ================= -->
+
+        <section class="section" id="skills">
+
+            <p class="eyebrow">
+                SKILLS
+            </p>
+
+            <h2>
+                My Technical Toolkit
+            </h2>
+
+
+            <div class="skill-grid">
+
+                <article class="skill">
+
+                    <h3>
+                        Frontend
+                    </h3>
+
+                    <p>
+                        HTML, CSS, JavaScript, React,
+                        Next.js, Tailwind CSS
+                    </p>
+
+                </article>
+
+
+                <article class="skill">
+
+                    <h3>
+                        Backend
+                    </h3>
+
+                    <p>
+                        Node.js, Express.js, FastAPI,
+                        REST APIs
+                    </p>
+
+                </article>
+
+
+                <article class="skill">
+
+                    <h3>
+                        Database
+                    </h3>
+
+                    <p>
+                        MongoDB, PostgreSQL,
+                        Prisma, SQL
+                    </p>
+
+                </article>
+
+
+                <article class="skill">
+
+                    <h3>
+                        AI / ML
+                    </h3>
+
+                    <p>
+                        Python, Machine Learning,
+                        Gemini AI, ONNX, LLM Applications
+                    </p>
+
+                </article>
+
+
+                <article class="skill">
+
+                    <h3>
+                        Programming
+                    </h3>
+
+                    <p>
+                        Java, C++, Python,
+                        Data Structures & Algorithms
+                    </p>
+
+                </article>
+
+
+                <article class="skill">
+
+                    <h3>
+                        Tools
+                    </h3>
+
+                    <p>
+                        Git, GitHub, VS Code,
+                        Linux, Vercel, Render
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJECTS ================= -->
+
+        <section class="section" id="projects">
+
+            <p class="eyebrow">
+                PROJECTS
+            </p>
+
+            <h2>
+                Selected Work
+            </h2>
+
+
+            <div class="project-grid">
+
+
+                <article class="project">
+
+                    <span class="tag">
+                        AI + FULL STACK
+                    </span>
+
+                    <h3>
+                        SmartMeet AI
+                    </h3>
+
+                    <p>
+                        Meeting intelligence platform that
+                        turns meeting recordings into structured
+                        summaries, action items and searchable
+                        insights.
+                    </p>
+
+                    <div class="stack">
+                        Next.js · FastAPI · Gemini AI · Database
+                    </div>
+
+                </article>
+
+
+                <article class="project">
+
+                    <span class="tag">
+                        AI
+                    </span>
+
+                    <h3>
+                        AI Emergency Assistant
+                    </h3>
+
+                    <p>
+                        Browser-based emergency assistant
+                        designed around local AI inference
+                        and practical emergency guidance.
+                    </p>
+
+                    <div class="stack">
+                        React · TypeScript · ONNX · llama.cpp
+                    </div>
+
+                </article>
+
+
+                <article class="project">
+
+                    <span class="tag">
+                        WEB DEVELOPMENT
+                    </span>
+
+                    <h3>
+                        Full-Stack Applications
+                    </h3>
+
+                    <p>
+                        Built multiple applications involving
+                        authentication, CRUD operations,
+                        APIs, databases and responsive interfaces.
+                    </p>
+
+                    <div class="stack">
+                        React · Node.js · Express · MongoDB
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section class="section contact" id="contact">
+
+            <p class="eyebrow">
+                CONTACT
+            </p>
+
+            <h2>
+                Let's Connect.
+            </h2>
+
+            <p class="section-text">
+                Feel free to connect with me for projects,
+                internships and collaboration.
+            </p>
+
+
+            <div class="contact-grid">
+
+
+                <a
+                    href="mailto:YOUR_EMAIL@example.com"
+                    class="contact-card"
+                >
+
+                    <span>
+                        Email
+                    </span>
+
+                    <strong>
+                        YOUR_EMAIL@example.com
+                    </strong>
+
+                </a>
+
+
+                <a
+                    href="https://github.com/YOUR_GITHUB"
+                    target="_blank"
+                    class="contact-card"
+                >
+
+                    <span>
+                        GitHub
+                    </span>
+
+                    <strong>
+                        github.com/YOUR_GITHUB
+                    </strong>
+
+                </a>
+
+
+                <a
+                    href="https://www.linkedin.com/in/YOUR_LINKEDIN"
+                    target="_blank"
+                    class="contact-card"
+                >
+
+                    <span>
+                        LinkedIn
+                    </span>
+
+                    <strong>
+                        linkedin.com/in/YOUR_LINKEDIN
+                    </strong>
+
+                </a>
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+            © 2026 Riyaz Malik. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>#   p r o f i l e  
+ 

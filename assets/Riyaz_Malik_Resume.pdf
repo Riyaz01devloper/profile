@@ -1,0 +1,68 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 2472 >>
+stream
+BT
+/F1 10 Tf
+/F1 18 Tf 50 750 Td (RIYAZ MALIK) Tj
+/F1 12 Tf 0 -22 Td (Full Stack Developer | AI/ML Enthusiast) Tj
+/F1 9 Tf 0 -18 Td (Email: riyazmalik2046@gmail.com | GitHub: github.com/Riyaz01devloper) Tj
+/F1 9 Tf 0 -18 Td (LinkedIn: linkedin.com/in/riyaz-malik-a5509332a) Tj
+/F1 9 Tf 0 -18 Td () Tj
+/F1 12 Tf 0 -22 Td (EDUCATION) Tj
+/F1 9 Tf 0 -18 Td (Jamia Millia Islamia - B.Tech in Computer Science & Engineering \(2024 - 2028\)) Tj
+/F1 9 Tf 0 -18 Td (Key Achievements: JEE Main 97.9 percentile | Class 12 PCM 93.5%) Tj
+/F1 9 Tf 0 -18 Td () Tj
+/F1 12 Tf 0 -22 Td (TECHNICAL SKILLS) Tj
+/F1 9 Tf 0 -18 Td (- Frontend: React.js, Next.js, JavaScript, TypeScript, HTML, CSS, Tailwind CSS) Tj
+/F1 9 Tf 0 -18 Td (- Backend: Node.js, Express.js, FastAPI, REST APIs) Tj
+/F1 9 Tf 0 -18 Td (- Database: MongoDB, PostgreSQL, Prisma, SQL) Tj
+/F1 9 Tf 0 -18 Td (- AI/ML: Python, Scikit-learn, Gemini API, ONNX, LLM integration) Tj
+/F1 9 Tf 0 -18 Td (- Programming Languages: Java, C++, Python) Tj
+/F1 9 Tf 0 -18 Td (- Tools & DevOps: Git, GitHub, Linux, VS Code, Docker) Tj
+/F1 9 Tf 0 -18 Td () Tj
+/F1 12 Tf 0 -22 Td (FEATURED PROJECTS) Tj
+/F1 9 Tf 0 -18 Td (1. SmartMeet AI \(Next.js, FastAPI, Python, Gemini AI, SQLAlchemy\)) Tj
+/F1 9 Tf 0 -18 Td (   Meeting intelligence platform: audio transcription, summaries & PDF reports.) Tj
+/F1 9 Tf 0 -18 Td (   Demo: https://smartmeet-v2.vercel.app/ | Code: github.com/Riyaz01devloper/smartmeet-v2) Tj
+/F1 9 Tf 0 -18 Td () Tj
+/F1 9 Tf 0 -18 Td (2. ResQ AI \(React.js, TypeScript, Tailwind CSS, ONNX, llama.cpp, RunAnywhere SDK\)) Tj
+/F1 9 Tf 0 -18 Td (   Browser-based emergency assistant with local on-device inference.) Tj
+/F1 9 Tf 0 -18 Td (   Demo: https://emergencyassistantai.vercel.app/ | Code: github.com/Riyaz01devloper/local_ai) Tj
+/F1 9 Tf 0 -18 Td () Tj
+/F1 9 Tf 0 -18 Td (3. TransitOps \(React.js, Node.js, Express.js, MongoDB\)) Tj
+/F1 9 Tf 0 -18 Td (   Fleet & transit operations management platform developed for Oddo Hackathon.) Tj
+/F1 9 Tf 0 -18 Td (   Demo: https://oddo-hackathon-zeta.vercel.app/ | Code: github.com/Riyaz01devloper/oddo-hackathon) Tj
+/F1 9 Tf 0 -18 Td () Tj
+/F1 12 Tf 0 -22 Td (EXPERIENCE) Tj
+/F1 9 Tf 0 -18 Td (Educator & Academic Mentor \(STEM & CS Fundamentals\) | Oct 2023 - Present) Tj
+/F1 9 Tf 0 -18 Td (- Mentored students in mathematics, logic and algorithmic problem-solving.) Tj
+/F1 9 Tf 0 -18 Td (- Translated abstract mathematical concepts into intuitive first-principles lessons.) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000002765 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2835
+%%EOF

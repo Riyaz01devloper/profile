@@ -4,501 +4,994 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description"
-        content="Riyaz Malik - Computer Science Student, AI/ML Enthusiast and Full Stack Developer">
+    <!-- SEO Meta Tags -->
+    <title>Riyaz Malik | Full Stack Developer & AI/ML Enthusiast</title>
+    <meta name="description" content="Riyaz Malik - Computer Science undergraduate at Jamia Millia Islamia. Full Stack Developer and AI/ML Enthusiast building scalable web applications and AI-powered products.">
+    <meta name="keywords" content="Riyaz Malik, Full Stack Developer, AI ML Engineer, Jamia Millia Islamia, Next.js, FastAPI, React, Python, SmartMeet AI, ResQ AI, TransitOps">
+    <meta name="author" content="Riyaz Malik">
+    <meta name="theme-color" content="#060913">
 
-    <title>Riyaz Malik | AI & Full Stack Developer</title>
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://profile-weld-alpha.vercel.app/">
+    <meta property="og:title" content="Riyaz Malik | Full Stack Developer & AI/ML Enthusiast">
+    <meta property="og:description" content="Computer Science undergraduate at Jamia Millia Islamia building practical software solutions using modern web technologies and artificial intelligence.">
+    <meta property="og:image" content="https://profile-weld-alpha.vercel.app/assets/og-image.png">
 
-    <!-- Google Font -->
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Riyaz Malik | Full Stack Developer & AI/ML Enthusiast">
+    <meta name="twitter:description" content="Building scalable web applications and AI-powered products. B.Tech Computer Science student at Jamia Millia Islamia.">
+
+    <!-- Google Fonts: Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 
-    <!-- CSS -->
+    <!-- Favicon (Inline SVG) -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230b1120'/><text x='50%' y='55%' font-family='sans-serif' font-size='48' font-weight='800' fill='%2338bdf8' dominant-baseline='middle' text-anchor='middle'>RM</text></svg>">
+
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <!-- ================= NAVBAR ================= -->
-
     <header class="navbar">
+        <div class="container navbar-inner">
+            <a href="#home" class="logo" aria-label="Riyaz Malik Home">
+                <span class="logo-badge">RM</span>
+                <span>Malik</span>
+            </a>
 
-        <a href="#home" class="logo">
-            RM<span>.</span>
-        </a>
+            <nav class="nav-links" id="navLinks" role="navigation" aria-label="Primary Navigation">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </nav>
 
-        <button class="menu-btn" id="menuBtn">
-            ☰
-        </button>
+            <div class="nav-actions">
+                <a href="assets/Riyaz_Malik_Resume.pdf" download="Riyaz_Malik_Resume.pdf" class="btn btn-secondary btn-sm resume-download-btn">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="7 10 12 15 17 10"></polyline>
+                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                    </svg>
+                    Resume
+                </a>
 
-        <nav id="nav">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
-
+                <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
     </header>
 
-
-    <!-- ================= MAIN ================= -->
-
     <main>
-
-        <!-- HERO SECTION -->
-
+        <!-- ================= HERO SECTION ================= -->
         <section class="hero" id="home">
+            <div class="container">
+                <div class="hero-grid">
+                    <div class="hero-content">
+                        <!-- Professional Availability Indicator -->
+                        <div class="status-badge">
+                            <span class="pulse-dot"></span>
+                            Available for Internships & Projects
+                        </div>
 
-            <div class="hero-content">
+                        <h1 class="hero-name">
+                            Hi, I'm <span>Riyaz Malik</span>
+                        </h1>
 
-                <p class="eyebrow">
-                    AI-BASED PERSONAL PROFILE
-                </p>
+                        <div class="hero-role">
+                            Full Stack Developer <span class="divider">|</span> AI/ML Enthusiast
+                        </div>
 
-                <h1>
-                    Hi, I'm <span>Riyaz Malik</span>
-                </h1>
+                        <p class="hero-headline">
+                            "Building scalable web applications and AI-powered products."
+                        </p>
 
-                <h2>
-                    Computer Science Student & AI/ML Enthusiast
-                </h2>
+                        <p class="hero-description">
+                            I'm a Computer Science undergraduate at Jamia Millia Islamia, passionate about building practical software solutions using modern web technologies and artificial intelligence.
+                        </p>
 
-                <p class="hero-text">
-                    I build practical web applications and AI-powered
-                    solutions while continuously improving my skills in
-                    software development, DSA and machine learning.
-                </p>
+                        <div class="hero-actions">
+                            <a href="#projects" class="btn btn-primary">
+                                View Projects
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </a>
 
-                <div class="buttons">
+                            <a href="assets/Riyaz_Malik_Resume.pdf" download="Riyaz_Malik_Resume.pdf" class="btn btn-secondary resume-download-btn">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                    <polyline points="7 10 12 15 17 10"></polyline>
+                                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                                </svg>
+                                Download Resume
+                            </a>
+                        </div>
 
-                    <a href="#contact" class="btn primary">
-                        Contact Me
-                    </a>
+                        <div class="hero-socials">
+                            <span class="hero-socials-label">Connect:</span>
+                            <a href="https://github.com/Riyaz01devloper" target="_blank" rel="noopener noreferrer" class="btn-icon" aria-label="GitHub Profile">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                </svg>
+                            </a>
+                            <a href="https://www.linkedin.com/in/riyaz-malik-a5509332a" target="_blank" rel="noopener noreferrer" class="btn-icon" aria-label="LinkedIn Profile">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                    <rect x="2" y="9" width="4" height="12"></rect>
+                                    <circle cx="4" cy="4" r="2"></circle>
+                                </svg>
+                            </a>
+                            <button class="btn-icon copy-email-btn" data-email="riyazmalik2046@gmail.com" aria-label="Copy Email Address" title="Copy Email">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
 
-                    <a href="#projects" class="btn secondary">
-                        View Projects
-                    </a>
-
+                    <!-- Developer Terminal Card Visual -->
+                    <div class="terminal-wrapper">
+                        <div class="terminal-card">
+                            <div class="terminal-header">
+                                <div class="terminal-dots">
+                                    <span class="terminal-dot dot-red"></span>
+                                    <span class="terminal-dot dot-yellow"></span>
+                                    <span class="terminal-dot dot-green"></span>
+                                </div>
+                                <span class="terminal-title">developer.ts</span>
+                                <span class="terminal-badge">ready</span>
+                            </div>
+                            <div class="terminal-body">
+                                <div><span class="code-keyword">const</span> <span class="code-variable">engineer</span> = {</div>
+                                <div style="padding-left: 20px;"><span class="code-property">name</span>: <span class="code-string">"Riyaz Malik"</span>,</div>
+                                <div style="padding-left: 20px;"><span class="code-property">university</span>: <span class="code-string">"Jamia Millia Islamia"</span>,</div>
+                                <div style="padding-left: 20px;"><span class="code-property">degree</span>: <span class="code-string">"B.Tech Computer Science"</span>,</div>
+                                <div style="padding-left: 20px;"><span class="code-property">graduation</span>: <span class="code-number" style="color: #fbbf24;">2028</span>,</div>
+                                <div style="padding-left: 20px;"><span class="code-property">interests</span>: [<span class="code-string">"Full-Stack"</span>, <span class="code-string">"AI/ML"</span>, <span class="code-string">"DSA"</span>],</div>
+                                <div style="padding-left: 20px;"><span class="code-property">primaryStack</span>: [</div>
+                                <div style="padding-left: 40px;"><span class="code-string">"Next.js"</span>, <span class="code-string">"FastAPI"</span>, <span class="code-string">"TypeScript"</span>,</div>
+                                <div style="padding-left: 40px;"><span class="code-string">"Python"</span>, <span class="code-string">"PostgreSQL"</span>, <span class="code-string">"Gemini AI"</span></div>
+                                <div style="padding-left: 20px;">],</div>
+                                <div style="padding-left: 20px;"><span class="code-property">seekingInternship</span>: <span class="code-boolean">true</span></div>
+                                <div>};</div>
+                                <div style="margin-top: 12px;"><span class="code-comment">// Open to engineering internship opportunities</span></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
             </div>
-
-
-            <div class="hero-card">
-
-                <div class="orb"></div>
-
-                <div class="code-card">
-
-                    <span>&lt;developer&gt;</span>
-
-                    <p>
-                        AI + Web + DSA
-                    </p>
-
-                    <span>&lt;/developer&gt;</span>
-
-                </div>
-
-            </div>
-
         </section>
 
-
-        <!-- ================= ABOUT ================= -->
-
+        <!-- ================= ABOUT SECTION ================= -->
         <section class="section" id="about">
-
-            <p class="eyebrow">
-                ABOUT ME
-            </p>
-
-            <h2>
-                Building skills by building things.
-            </h2>
-
-            <p class="section-text">
-
-                I am a B.Tech Computer Science student at
-                Jamia Millia Islamia, focused on becoming an
-                AI Engineer.
-
-                I enjoy turning ideas into working products
-                and learning through projects, hackathons and
-                problem solving.
-
-            </p>
-
-
-            <div class="stats">
-
-                <div>
-                    <strong>2028</strong>
-                    <span>Graduation</span>
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-eyebrow">About Me</span>
+                    <h2 class="section-title">Engineering Scalable Software & Applied AI</h2>
                 </div>
 
-                <div>
-                    <strong>AI/ML</strong>
-                    <span>Career Focus</span>
-                </div>
+                <div class="about-grid">
+                    <div class="about-narrative">
+                        <p>
+                            I am a <strong>Computer Science undergraduate at Jamia Millia Islamia</strong> (Expected Graduation: <strong>2028</strong>), driven by a deep fascination with building practical, production-ready software systems that combine modern web engineering with artificial intelligence.
+                        </p>
+                        <p>
+                            My experience spans the full application development cycle: architecting responsive, component-driven client interfaces with <strong>React.js</strong> and <strong>Next.js</strong>, as well as designing robust, performant backend services using <strong>FastAPI</strong>, <strong>Node.js</strong>, and relational/document databases.
+                        </p>
+                        <p>
+                            Beyond traditional web development, I am deeply invested in <strong>AI/ML engineering</strong>. I have hands-on experience integrating modern Large Language Model APIs (such as the Gemini API) for intelligence pipelines and implementing lightweight local inference engines (utilizing <strong>ONNX Runtime</strong> and <strong>llama.cpp</strong>) for offline-first, client-side intelligence.
+                        </p>
+                        <p>
+                            Whether tackling algorithmic optimization or deploying multi-tier web platforms, I focus on writing clean, maintainable code that solves real-world engineering problems with measurable impact.
+                        </p>
+                    </div>
 
-                <div>
-                    <strong>Full Stack</strong>
-                    <span>Development</span>
-                </div>
+                    <div class="about-highlights">
+                        <div class="highlight-card">
+                            <div class="highlight-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                                    <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                                </svg>
+                            </div>
+                            <div class="highlight-value">2028</div>
+                            <div class="highlight-label">Expected Graduation</div>
+                            <div class="highlight-subtext">B.Tech Computer Science at Jamia Millia Islamia</div>
+                        </div>
 
+                        <div class="highlight-card">
+                            <div class="highlight-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <line x1="2" y1="12" x2="22" y2="12"></line>
+                                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                                </svg>
+                            </div>
+                            <div class="highlight-value">Full Stack + AI</div>
+                            <div class="highlight-label">Core Focus</div>
+                            <div class="highlight-subtext">Building scalable web applications with applied machine learning</div>
+                        </div>
+
+                        <div class="highlight-card">
+                            <div class="highlight-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="8" r="7"></circle>
+                                    <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                                </svg>
+                            </div>
+                            <div class="highlight-value">97.9 %ile</div>
+                            <div class="highlight-label">JEE Main Achievement</div>
+                            <div class="highlight-subtext">Top 2.1% nationwide in India's premier engineering examination</div>
+                        </div>
+
+                        <div class="highlight-card">
+                            <div class="highlight-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="16 18 22 12 16 6"></polyline>
+                                    <polyline points="8 6 2 12 8 18"></polyline>
+                                </svg>
+                            </div>
+                            <div class="highlight-value">End-to-End</div>
+                            <div class="highlight-label">System Delivery</div>
+                            <div class="highlight-subtext">Clean APIs, responsive UI, database modeling, and AI integration</div>
+                        </div>
+                    </div>
+                </div>
             </div>
-
         </section>
 
-
-        <!-- ================= SKILLS ================= -->
-
+        <!-- ================= TECHNICAL SKILLS ================= -->
         <section class="section" id="skills">
-
-            <p class="eyebrow">
-                SKILLS
-            </p>
-
-            <h2>
-                My Technical Toolkit
-            </h2>
-
-
-            <div class="skill-grid">
-
-                <article class="skill">
-
-                    <h3>
-                        Frontend
-                    </h3>
-
-                    <p>
-                        HTML, CSS, JavaScript, React,
-                        Next.js, Tailwind CSS
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-eyebrow">Technical Skills</span>
+                    <h2 class="section-title">My Engineering Toolkit</h2>
+                    <p class="section-description">
+                        Organized by specialized engineering domain. Focused on modern, production-tested languages, frameworks, and deployment environments.
                     </p>
+                </div>
 
-                </article>
+                <div class="skills-grid">
+                    <!-- Frontend -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                                    <line x1="8" y1="21" x2="16" y2="21"></line>
+                                    <line x1="12" y1="17" x2="12" y2="21"></line>
+                                </svg>
+                            </div>
+                            <h3 class="category-title">Frontend</h3>
+                        </div>
+                        <div class="skills-badges-wrap">
+                            <span class="skill-badge">React.js</span>
+                            <span class="skill-badge">Next.js</span>
+                            <span class="skill-badge">JavaScript</span>
+                            <span class="skill-badge">TypeScript</span>
+                            <span class="skill-badge">HTML</span>
+                            <span class="skill-badge">CSS</span>
+                            <span class="skill-badge">Tailwind CSS</span>
+                        </div>
+                    </div>
 
+                    <!-- Backend -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                                    <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                                    <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                                    <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                                </svg>
+                            </div>
+                            <h3 class="category-title">Backend</h3>
+                        </div>
+                        <div class="skills-badges-wrap">
+                            <span class="skill-badge">Node.js</span>
+                            <span class="skill-badge">Express.js</span>
+                            <span class="skill-badge">FastAPI</span>
+                            <span class="skill-badge">REST APIs</span>
+                        </div>
+                    </div>
 
-                <article class="skill">
+                    <!-- Database -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                                    <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                                    <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                                </svg>
+                            </div>
+                            <h3 class="category-title">Database</h3>
+                        </div>
+                        <div class="skills-badges-wrap">
+                            <span class="skill-badge">MongoDB</span>
+                            <span class="skill-badge">PostgreSQL</span>
+                            <span class="skill-badge">Prisma</span>
+                            <span class="skill-badge">SQL</span>
+                        </div>
+                    </div>
 
-                    <h3>
-                        Backend
-                    </h3>
+                    <!-- AI / ML -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path>
+                                </svg>
+                            </div>
+                            <h3 class="category-title">AI / Machine Learning</h3>
+                        </div>
+                        <div class="skills-badges-wrap">
+                            <span class="skill-badge">Python</span>
+                            <span class="skill-badge">Scikit-learn</span>
+                            <span class="skill-badge">Gemini API</span>
+                            <span class="skill-badge">ONNX</span>
+                            <span class="skill-badge">LLM Integration</span>
+                        </div>
+                    </div>
 
-                    <p>
-                        Node.js, Express.js, FastAPI,
-                        REST APIs
-                    </p>
+                    <!-- Programming -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="16 18 22 12 16 6"></polyline>
+                                    <polyline points="8 6 2 12 8 18"></polyline>
+                                </svg>
+                            </div>
+                            <h3 class="category-title">Programming</h3>
+                        </div>
+                        <div class="skills-badges-wrap">
+                            <span class="skill-badge">Java</span>
+                            <span class="skill-badge">C++</span>
+                            <span class="skill-badge">Python</span>
+                        </div>
+                    </div>
 
-                </article>
-
-
-                <article class="skill">
-
-                    <h3>
-                        Database
-                    </h3>
-
-                    <p>
-                        MongoDB, PostgreSQL,
-                        Prisma, SQL
-                    </p>
-
-                </article>
-
-
-                <article class="skill">
-
-                    <h3>
-                        AI / ML
-                    </h3>
-
-                    <p>
-                        Python, Machine Learning,
-                        Gemini AI, ONNX, LLM Applications
-                    </p>
-
-                </article>
-
-
-                <article class="skill">
-
-                    <h3>
-                        Programming
-                    </h3>
-
-                    <p>
-                        Java, C++, Python,
-                        Data Structures & Algorithms
-                    </p>
-
-                </article>
-
-
-                <article class="skill">
-
-                    <h3>
-                        Tools
-                    </h3>
-
-                    <p>
-                        Git, GitHub, VS Code,
-                        Linux, Vercel, Render
-                    </p>
-
-                </article>
-
+                    <!-- Tools & DevOps -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                                </svg>
+                            </div>
+                            <h3 class="category-title">Tools & Environment</h3>
+                        </div>
+                        <div class="skills-badges-wrap">
+                            <span class="skill-badge">Git</span>
+                            <span class="skill-badge">GitHub</span>
+                            <span class="skill-badge">Linux</span>
+                            <span class="skill-badge">VS Code</span>
+                            <span class="skill-badge">Docker</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-
         </section>
 
-
-        <!-- ================= PROJECTS ================= -->
-
+        <!-- ================= FEATURED PROJECTS ================= -->
         <section class="section" id="projects">
-
-            <p class="eyebrow">
-                PROJECTS
-            </p>
-
-            <h2>
-                Selected Work
-            </h2>
-
-
-            <div class="project-grid">
-
-
-                <article class="project">
-
-                    <span class="tag">
-                        AI + FULL STACK
-                    </span>
-
-                   
-
-                 <h3>SmartMeet AI</h3>
-
-<p>
-    Meeting intelligence platform that turns meeting recordings
-    into structured summaries, action items and searchable insights.
-</p>
-
-<a
-    href="https://smartmeet-v2.vercel.app/"
-    target="_blank"
-    rel="noopener noreferrer"
-    class="project-link"
->
-    Live Demo →
-</a>
-
-<a
-    href="https://github.com/Riyaz01devloper/smartmeet-v2"
-    target="_blank"
-    rel="noopener noreferrer"
-    class="project-link"
->
-    GitHub →
-</a>
-
-                    <div class="stack">
-                        Next.js · FastAPI · Gemini AI · Database
-                    </div>
-
-                </article>
-
-
-                <article class="project">
-
-                    <span class="tag">
-                        AI
-                    </span>
-
-                    <h3>
-                        ResQ AI
-                    </h3>
-
-                    <p>
-                        Browser-based emergency assistant
-                        designed around local AI inference
-                        and practical emergency guidance.
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-eyebrow">Featured Work</span>
+                    <h2 class="section-title">Selected Projects</h2>
+                    <p class="section-description">
+                        Production-grade applications and systems demonstrating end-to-end full-stack development, AI model integration, and scalable architecture.
                     </p>
-                    <a
-            href="https://emergencyassistantai.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="project-link"
-        >
-            Live Demo →
-        </a>
+                </div>
 
-        <a
-            href="https://github.com/Riyaz01devloper/local_ai"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="project-link"
-        >
-            GitHub →
-        </a>
+                <div class="projects-list">
+                    <!-- PROJECT 1: SmartMeet AI -->
+                    <article class="project-card">
+                        <div class="project-preview">
+                            <div class="project-mockup-frame">
+                                <div class="mockup-header">
+                                    <span></span><span></span><span></span>
+                                    <span style="margin-left: 8px; font-size: 11px; color: #94a3b8; font-family: var(--font-mono);">smartmeet-ai.app</span>
+                                </div>
+                                <div class="mockup-body">
+                                    <div class="mockup-visual">
+                                        <div class="mockup-badge-row">
+                                            <span class="mockup-tag">AI Intelligence Pipeline</span>
+                                            <span style="font-size: 11px; color: #10b981; font-weight: 600;">● Active Processing</span>
+                                        </div>
+                                        <div style="font-size: 13px; font-weight: 700; color: #f8fafc; margin-top: 4px;">
+                                            Quarterly Engineering Sync.mp3
+                                        </div>
+                                        <div class="mockup-stats-grid">
+                                            <div class="mockup-stat-box">
+                                                <span>Summarization</span>
+                                                <strong>Gemini AI (Structured)</strong>
+                                            </div>
+                                            <div class="mockup-stat-box">
+                                                <span>Extraction</span>
+                                                <strong>7 Action Items Found</strong>
+                                            </div>
+                                        </div>
+                                        <div style="font-size: 11px; color: #38bdf8; font-family: var(--font-mono); margin-top: 4px;">
+                                            &gt; PDF Executive Report Generated [2.4 MB]
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
+                        <div class="project-content">
+                            <div>
+                                <div class="project-tag-row">
+                                    <span class="project-tag">AI + Full Stack</span>
+                                </div>
+                                <h3 class="project-title">SmartMeet AI</h3>
+                                <p class="project-overview">
+                                    An AI-powered meeting intelligence platform that converts meeting recordings into structured insights, automated summaries, and actionable tasks.
+                                </p>
 
-                    <div class="stack">
-                        React · TypeScript · ONNX · llama.cpp
+                                <div class="project-features-title">Key Capabilities & Architecture</div>
+                                <ul class="project-features">
+                                    <li>
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                            <polyline points="20 6 9 17 4 12"></polyline>
+                                        </svg>
+                                        <span>Meeting audio transcription & multi-stage processing pipeline</span>
+                                    </li>
+                                    <li>
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                            <polyline points="20 6 9 17 4 12"></polyline>
+                                        </svg>
+                                        <span>AI-generated summaries powered by Gemini AI</span>
+                                    </li>
+                                    <li>
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                            <polyline points="20 6 9 17 4 12"></polyline>
+                                        </svg>
+                                        <span>Automated action-item and decision extraction</span>
+                                    </li>
+                                    <li>
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                            <polyline points="20 6 9 17 4 12"></polyline>
+                                        </svg>
+                                        <span>Meeting history, searchable dashboard & PDF report generation</span>
+                                    </li>
+                                </ul>
+
+                                <div class="project-stack">
+                                    <span class="stack-pill">Next.js</span>
+                                    <span class="stack-pill">FastAPI</span>
+                                    <span class="stack-pill">Python</span>
+                                    <span class="stack-pill">Gemini AI</span>
+                                    <span class="stack-pill">SQLAlchemy</span>
+                                </div>
+                            </div>
+
+                            <div class="project-actions">
+                                <a href="https://smartmeet-v2.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                                    Live Demo
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15 3 21 3 21 9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg>
+                                </a>
+
+                                <a href="https://github.com/Riyaz01devloper/smartmeet-v2" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                    </svg>
+                                    GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- PROJECT 2: ResQ AI -->
+                    <article class="project-card">
+                        <div class="project-preview">
+                            <div class="project-mockup-frame">
+                                <div class="mockup-header">
+                                    <span></span><span></span><span></span>
+                                    <span style="margin-left: 8px; font-size: 11px; color: #94a3b8; font-family: var(--font-mono);">resq-ai.local</span>
+                                </div>
+                                <div class="mockup-body">
+                                    <div class="mockup-visual">
+                                        <div class="mockup-badge-row">
+                                            <span class="mockup-tag" style="background: rgba(16, 185, 129, 0.15); color: #34d399;">On-Device Runtime</span>
+                                            <span style="font-size: 11px; color: #38bdf8; font-weight: 600;">100% Offline Ready</span>
+                                        </div>
+                                        <div style="font-size: 13px; font-weight: 700; color: #f8fafc; margin-top: 4px;">
+                                            Emergency Decision Assistant
+                                        </div>
+                                        <div class="mockup-stats-grid">
+                                            <div class="mockup-stat-box">
+                                                <span>Model Engine</span>
+                                                <strong>ONNX + llama.cpp</strong>
+                                            </div>
+                                            <div class="mockup-stat-box">
+                                                <span>Network State</span>
+                                                <strong>Zero API Latency</strong>
+                                            </div>
+                                        </div>
+                                        <div style="font-size: 11px; color: #a5b4fc; font-family: var(--font-mono); margin-top: 4px;">
+                                            &gt; Privacy First: Client-Side Execution
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-content">
+                            <div>
+                                <div class="project-tag-row">
+                                    <span class="project-tag">On-Device AI</span>
+                                </div>
+                                <h3 class="project-title">ResQ AI</h3>
+                                <p class="project-overview">
+                                    An AI-powered emergency assistant focused on providing intelligent situational guidance through local AI models operating directly within the client environment.
+                                </p>
+
+                                <div class="project-features-title">Key Capabilities & Architecture</div>
+                                <ul class="project-features">
+                                    <li>
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                            <polyline points="20 6 9 17 4 12"></polyline>
+                                        </svg>
+                                        <span>Local on-device AI inference with ONNX and llama.cpp runtimes</span>
+                                    </li>
+                                    <li>
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                            <polyline points="20 6 9 17 4 12"></polyline>
+                                        </svg>
+                                        <span>Full offline accessibility designed for emergency and low-bandwidth scenarios</span>
+                                    </li>
+                                    <li>
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                            <polyline points="20 6 9 17 4 12"></polyline>
+                                        </svg>
+                                        <span>RunAnywhere SDK integration for flexible cross-platform execution</span>
+                                    </li>
+                                    <li>
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                            <polyline points="20 6 9 17 4 12"></polyline>
+                                        </svg>
+                                        <span>Complete user data privacy with zero server roundtrips</span>
+                                    </li>
+                                </ul>
+
+                                <div class="project-stack">
+                                    <span class="stack-pill">React.js</span>
+                                    <span class="stack-pill">TypeScript</span>
+                                    <span class="stack-pill">Tailwind CSS</span>
+                                    <span class="stack-pill">ONNX</span>
+                                    <span class="stack-pill">llama.cpp</span>
+                                    <span class="stack-pill">RunAnywhere SDK</span>
+                                </div>
+                            </div>
+
+                            <div class="project-actions">
+                                <a href="https://emergencyassistantai.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                                    Live Demo
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15 3 21 3 21 9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg>
+                                </a>
+
+                                <a href="https://github.com/Riyaz01devloper/local_ai" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                    </svg>
+                                    GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- PROJECT 3: TransitOps -->
+                    <article class="project-card">
+                        <div class="project-preview">
+                            <div class="project-mockup-frame">
+                                <div class="mockup-header">
+                                    <span></span><span></span><span></span>
+                                    <span style="margin-left: 8px; font-size: 11px; color: #94a3b8; font-family: var(--font-mono);">transitops.internal</span>
+                                </div>
+                                <div class="mockup-body">
+                                    <div class="mockup-visual">
+                                        <div class="mockup-badge-row">
+                                            <span class="mockup-tag" style="background: rgba(245, 158, 11, 0.15); color: #fbbf24;">Oddo Hackathon Project</span>
+                                            <span style="font-size: 11px; color: #10b981; font-weight: 600;">Full Stack Platform</span>
+                                        </div>
+                                        <div style="font-size: 13px; font-weight: 700; color: #f8fafc; margin-top: 4px;">
+                                            Fleet & Logistics Management
+                                        </div>
+                                        <div class="mockup-stats-grid">
+                                            <div class="mockup-stat-box">
+                                                <span>Fleet Coverage</span>
+                                                <strong>Vehicle Lifecycle Logs</strong>
+                                            </div>
+                                            <div class="mockup-stat-box">
+                                                <span>Telemetry</span>
+                                                <strong>Fuel & Maintenance</strong>
+                                            </div>
+                                        </div>
+                                        <div style="font-size: 11px; color: #38bdf8; font-family: var(--font-mono); margin-top: 4px;">
+                                            &gt; REST API + MongoDB Aggregations
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-content">
+                            <div>
+                                <div class="project-tag-row">
+                                    <span class="project-tag hackathon">Full Stack · Hackathon</span>
+                                </div>
+                                <h3 class="project-title">TransitOps</h3>
+                                <p class="project-overview">
+                                    A full-stack transit and fleet management platform developed for managing vehicles, maintenance records, fuel consumption logs, and operational operational telemetry data.
+                                </p>
+
+                                <div class="project-features-title">Key Capabilities & Architecture</div>
+                                <ul class="project-features">
+                                    <li>
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                            <polyline points="20 6 9 17 4 12"></polyline>
+                                        </svg>
+                                        <span>Centralized vehicle registry with status tracking and lifecycle management</span>
+                                    </li>
+                                    <li>
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                            <polyline points="20 6 9 17 4 12"></polyline>
+                                        </svg>
+                                        <span>Maintenance logging and scheduled servicing alerts</span>
+                                    </li>
+                                    <li>
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                            <polyline points="20 6 9 17 4 12"></polyline>
+                                        </svg>
+                                        <span>Fuel consumption tracking and efficiency data logging</span>
+                                    </li>
+                                    <li>
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                            <polyline points="20 6 9 17 4 12"></polyline>
+                                        </svg>
+                                        <span>Interactive analytics dashboard for transit fleet operators</span>
+                                    </li>
+                                </ul>
+
+                                <div class="project-stack">
+                                    <span class="stack-pill">React.js</span>
+                                    <span class="stack-pill">Node.js</span>
+                                    <span class="stack-pill">Express.js</span>
+                                    <span class="stack-pill">MongoDB</span>
+                                    <span class="stack-pill">REST APIs</span>
+                                </div>
+                            </div>
+
+                            <div class="project-actions">
+                                <a href="https://oddo-hackathon-zeta.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                                    Live Demo
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15 3 21 3 21 9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg>
+                                </a>
+
+                                <a href="https://github.com/Riyaz01devloper/oddo-hackathon" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                    </svg>
+                                    GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= EXPERIENCE (TEACHING & MENTORSHIP) ================= -->
+        <section class="section" id="experience">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-eyebrow">Professional Experience</span>
+                    <h2 class="section-title">Teaching & Academic Mentorship</h2>
+                    <p class="section-description">
+                        Dedicated academic teaching and mentoring experience demonstrating communication, leadership, and structured problem-solving.
+                    </p>
+                </div>
+
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div class="exp-role-wrap">
+                            <h3>Educator & Academic Mentor</h3>
+                            <div class="exp-org">STEM, Mathematics & Computer Science Foundations</div>
+                        </div>
+                        <div class="exp-period-badge">
+                            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                <line x1="16" y1="2" x2="16" y2="6"></line>
+                                <line x1="8" y1="2" x2="8" y2="6"></line>
+                                <line x1="3" y1="10" x2="21" y2="10"></line>
+                            </svg>
+                            October 2023 – Present
+                        </div>
                     </div>
 
-                </article>
+                    <div class="experience-body">
+                        <p>
+                            Actively instructing and mentoring students in mathematics and computational fundamentals since October 2023. This role has sharpened vital soft skills and leadership capabilities that directly translate to engineering collaboration:
+                        </p>
 
+                        <div class="skills-transferable-grid">
+                            <div class="transfer-item">
+                                <strong>Communication & Concept Clarity</strong>
+                                <p>Distilling dense, abstract mathematical and programming concepts into clear, intuitive first-principles explanations tailored to different learning styles.</p>
+                            </div>
 
-                <article class="project">
+                            <div class="transfer-item">
+                                <strong>Analytical Problem-Solving</strong>
+                                <p>Guiding students to approach algorithmic and quantitative problems methodically: breaking complex problems down into modular, solvable sub-components.</p>
+                            </div>
 
-    <span class="tag">
-        FULL STACK
-    </span>
-
-    <h3>
-        TransitOps
-    </h3>
-
-    <p>
-        A full-stack transit and fleet management platform
-        for managing vehicles, maintenance records, fuel logs,
-        and operational data.
-    </p>
-
-    <div class="stack">
-        React · Node.js · Express · MongoDB
-    </div>
-
-    <div class="project-buttons">
-
-        <a
-            href="https://oddo-hackathon-zeta.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="project-link"
-        >
-            Live Demo →
-        </a>
-
-        <a
-            href="https://github.com/Riyaz01devloper/oddo-hackathon"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="project-link"
-        >
-            GitHub →
-        </a>
-
-    </div>
-
-</article>
-
-
+                            <div class="transfer-item">
+                                <strong>Time Management & Discipline</strong>
+                                <p>Balancing rigorous teaching commitments, lesson planning, and student progress assessments alongside full-time undergraduate engineering coursework and project development.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-
         </section>
 
+        <!-- ================= EDUCATION & ACHIEVEMENTS ================= -->
+        <section class="section" id="education">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-eyebrow">Academic Credentials</span>
+                    <h2 class="section-title">Education & Achievements</h2>
+                </div>
 
-        <!-- ================= CONTACT ================= -->
+                <div class="edu-achieve-grid">
+                    <!-- Education Card -->
+                    <div class="edu-card">
+                        <div>
+                            <div class="edu-icon-badge">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                                    <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                                </svg>
+                            </div>
+                            <h3 class="edu-title">B.Tech in Computer Science</h3>
+                            <div class="edu-institution">Jamia Millia Islamia, New Delhi</div>
+                            <div class="edu-meta">
+                                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg>
+                                Expected Graduation: 2028
+                            </div>
+                            <p class="edu-desc">
+                                Pursuing comprehensive undergraduate studies in Computer Science. Core coursework includes Data Structures & Algorithms, Object-Oriented Programming, Database Management Systems, Computer Networks, and Software Engineering.
+                            </p>
+                        </div>
+                    </div>
 
-        <section class="section contact" id="contact">
+                    <!-- Achievements Card -->
+                    <div class="achieve-card">
+                        <div>
+                            <div class="edu-icon-badge">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="8" r="7"></circle>
+                                    <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                                </svg>
+                            </div>
+                            <h3 class="edu-title">Recognitions & Benchmarks</h3>
+                            <div class="edu-institution" style="color: var(--text-secondary); margin-bottom: 18px;">Verified Aptitude & Academic Excellence</div>
 
-            <p class="eyebrow">
-                CONTACT
-            </p>
+                            <div class="achievement-list">
+                                <div class="achievement-item">
+                                    <span class="achieve-badge">97.9 %ile</span>
+                                    <div class="achieve-info">
+                                        <h4>JEE Main Examination</h4>
+                                        <p>Ranked within the top 2.1 percentile nationally among over 1.4 million aspirants in India's highly competitive national engineering examination.</p>
+                                    </div>
+                                </div>
 
-            <h2>
-                Let's Connect.
-            </h2>
+                                <div class="achievement-item">
+                                    <span class="achieve-badge">93.5%</span>
+                                    <div class="achieve-info">
+                                        <h4>Class 12 Board Examination (PCM)</h4>
+                                        <p>Distinction in Physics, Chemistry, and Mathematics, establishing strong quantitative and analytical fundamentals.</p>
+                                    </div>
+                                </div>
 
-            <p class="section-text">
-                Feel free to connect with me for projects,
-                internships and collaboration.
-            </p>
-
-
-            <div class="contact-grid">
-
-
-                <a
-                    href="riyazmalik2046@gmail.com"
-                    class="contact-card"
-                >
-
-                    <span>
-                        Email
-                    </span>
-
-                    <strong>
-                        riyazmalik2046@gmail.com
-                    </strong>
-
-                </a>
-
-
-                <a
-                    href="https://github.com/Riyaz01devloper"
-                    target="_blank"
-                    class="contact-card"
-                >
-
-                    <span>
-                        GitHub
-                    </span>
-
-                    <strong>
-                        https://github.com/Riyaz01devloper
-                    </strong>
-
-                </a>
-
-
-                <a
-                    href="https://www.linkedin.com/in/riyaz-malik-a5509332a
-"
-                    target="_blank"
-                    class="contact-card"
-                >
-
-                    <span>
-                        LinkedIn
-                    </span>
-
-                    <strong>
-                        https://www.linkedin.com/in/riyaz-malik-a5509332a
-
-                    </strong>
-
-                </a>
-
-
+                                <div class="achievement-item">
+                                    <span class="achieve-badge" style="background: rgba(56, 189, 248, 0.15); color: #38bdf8; border-color: rgba(56, 189, 248, 0.3);">Hackathon</span>
+                                    <div class="achieve-info">
+                                        <h4>Oddo Hackathon Builder</h4>
+                                        <p>Developed and deployed TransitOps, a full-stack transit operations solution within tight competitive hackathon timelines.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-
         </section>
 
+        <!-- ================= CONTACT SECTION ================= -->
+        <section class="section" id="contact">
+            <div class="container">
+                <div class="contact-box">
+                    <div class="contact-layout">
+                        <!-- Left Info Column -->
+                        <div class="contact-info-col">
+                            <span class="section-eyebrow">Get In Touch</span>
+                            <h3>Have an opportunity or interesting project? Let's connect.</h3>
+                            <p>
+                                I am actively seeking <strong>Full Stack Developer</strong> and <strong>AI/ML internship</strong> opportunities. Whether you have an open role, an interesting project, or want to discuss technology, feel free to reach out.
+                            </p>
+
+                            <div class="contact-cards-stack">
+                                <!-- Email Card -->
+                                <a href="mailto:riyazmalik2046@gmail.com" class="contact-channel-card">
+                                    <div class="channel-left">
+                                        <div class="channel-icon">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                                <polyline points="22,6 12,13 2,6"></polyline>
+                                            </svg>
+                                        </div>
+                                        <div class="channel-text">
+                                            <span>Direct Email</span>
+                                            <strong>riyazmalik2046@gmail.com</strong>
+                                        </div>
+                                    </div>
+                                    <button class="btn-icon copy-email-btn" data-email="riyazmalik2046@gmail.com" title="Copy Email" aria-label="Copy Email" style="width: 32px; height: 32px;">
+                                        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                                            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                                        </svg>
+                                    </button>
+                                </a>
+
+                                <!-- LinkedIn Card -->
+                                <a href="https://www.linkedin.com/in/riyaz-malik-a5509332a" target="_blank" rel="noopener noreferrer" class="contact-channel-card">
+                                    <div class="channel-left">
+                                        <div class="channel-icon">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                                <rect x="2" y="9" width="4" height="12"></rect>
+                                                <circle cx="4" cy="4" r="2"></circle>
+                                            </svg>
+                                        </div>
+                                        <div class="channel-text">
+                                            <span>LinkedIn</span>
+                                            <strong>riyaz-malik-a5509332a</strong>
+                                        </div>
+                                    </div>
+                                    <span class="channel-action">
+                                        Connect
+                                        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                            <polyline points="15 3 21 3 21 9"></polyline>
+                                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                                        </svg>
+                                    </span>
+                                </a>
+
+                                <!-- GitHub Card -->
+                                <a href="https://github.com/Riyaz01devloper" target="_blank" rel="noopener noreferrer" class="contact-channel-card">
+                                    <div class="channel-left">
+                                        <div class="channel-icon">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                            </svg>
+                                        </div>
+                                        <div class="channel-text">
+                                            <span>GitHub</span>
+                                            <strong>Riyaz01devloper</strong>
+                                        </div>
+                                    </div>
+                                    <span class="channel-action">
+                                        View Code
+                                        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                            <polyline points="15 3 21 3 21 9"></polyline>
+                                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Right Contact Form -->
+                        <div class="contact-form-col">
+                            <form id="contactForm" novalidate>
+                                <div class="form-group">
+                                    <label for="formName" class="form-label">Your Name</label>
+                                    <input type="text" id="formName" class="form-control" placeholder="e.g. Alex Smith" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="formEmail" class="form-label">Your Email</label>
+                                    <input type="email" id="formEmail" class="form-control" placeholder="alex@company.com" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="formSubject" class="form-label">Subject</label>
+                                    <input type="text" id="formSubject" class="form-control" placeholder="Internship Opportunity / Project Inquiry" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="formMessage" class="form-label">Message</label>
+                                    <textarea id="formMessage" class="form-control" rows="4" placeholder="Hello Riyaz, we'd like to discuss an opportunity..." required></textarea>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary" style="width: 100%;">
+                                    Send Message
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                        <line x1="22" y1="2" x2="11" y2="13"></line>
+                                        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                                    </svg>
+                                </button>
+
+                                <div id="formStatus" class="form-status"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
-
     <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-copy">
+                © 2026 <strong>Riyaz Malik</strong>. All Rights Reserved. Built with clean code & modern web standards.
+            </div>
 
-    <footer>
-
-        <p>
-            © 2026 Riyaz Malik. All Rights Reserved.
-        </p>
-
+            <div class="footer-links">
+                <a href="https://github.com/Riyaz01devloper" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/riyaz-malik-a5509332a" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="mailto:riyazmalik2046@gmail.com">Email</a>
+                <span class="back-to-top" id="backToTop" role="button" tabindex="0">
+                    Back to Top ↑
+                </span>
+            </div>
+        </div>
     </footer>
 
+    <!-- Toast Notification Container -->
+    <div id="toastNotice" class="toast-notice" role="status" aria-live="polite"></div>
 
-    <!-- JavaScript -->
-    <script src="script.js"></script>
-
+    <!-- JavaScript (Fixing previous broken script.js filename reference) -->
+    <script src="scripts.js"></script>
 </body>
 </html>

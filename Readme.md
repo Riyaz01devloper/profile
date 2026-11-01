@@ -12,14 +12,13 @@ A high-performance, dark-themed, recruiter-focused developer portfolio built wit
 
 ### Key Sections
 - **Hero & Status**: Clear value proposition, real-time availability indicator, fast CTAs (View Projects, Resume, GitHub, LinkedIn).
-- **About Me**: Academic background at Jamia Millia Islamia (Class of 2028), full-stack & AI focus, competitive exams (JEE Main 97.9 %ile).
-- **Technical Toolkit**: Categorized skill chips for Frontend, Backend, Database, AI/ML, Programming, and DevOps/Tools.
+- **About Me**: Academic background at Jamia Millia Islamia (Class of 2028), full-stack & AI focus, project delivery highlights.
+- **Technical Toolkit**: Categorized skill chips for Frontend, Backend, Database, AI/ML, Programming, and Tools & Environment.
 - **Featured Projects**:
   - **SmartMeet AI**: Meeting intelligence platform (Next.js, FastAPI, Python, Gemini AI, SQLAlchemy).
-  - **ResQ AI**: Offline-ready emergency assistant with local on-device inference (React, TypeScript, ONNX, llama.cpp, RunAnywhere SDK).
+  - **ResQ AI**: Offline-ready emergency assistant with local on-device inference (React, TypeScript, Tailwind CSS, llama.cpp, RunAnywhere SDK).
   - **TransitOps**: Full-stack fleet and transit operations management platform (React, Node.js, Express, MongoDB).
-- **Experience**: Teaching & academic mentorship (STEM, CS & Mathematics) highlighting communication, structured problem-solving, and leadership since October 2023.
-- **Education & Credentials**: B.Tech CSE at Jamia Millia Islamia, 97.9 percentile in JEE Main, 93.5% Class 12 PCM distinction.
+- **Education & Highlights**: B.Tech CSE at Jamia Millia Islamia (2024–2028), Oddo Hackathon builder, full-stack systems engineering.
 - **Interactive Contact**: Direct email with one-click copy, verified LinkedIn and GitHub profiles, and pre-formatted mailto inquiry form.
 
 ---
